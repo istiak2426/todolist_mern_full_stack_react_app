@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: lightcoral;
+}
+
+.addwrapper
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top
+{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+}
+
+.add{
+    
+    
+    width: 18rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcyan;
+    padding: .5rem;
+    
+   
+    
+
+
+}
+.input
+{
+    padding-left: 1rem;
+    width: 15rem;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+.btn
+{
+    width: 2rem;
+    height: 3rem;
+    cursor: pointer;
+    
+
+}
+
+.edit
+{
+    width: 2rem;
+    height: 3rem;
+    cursor: pointer;
+
+}
+
+.complete
+{
+    width: 2rem;
+    height: 3rem;
+    cursor: pointer;
+
+}
+.delete
+{
+    width: 2rem;
+    height: 3rem;
+    cursor: pointer;
+
+}
+
+
+
+
+.list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.line{
+    padding-left: 1rem;
+    width:15rem;
+    height: 3rem;
+    font-size: 2rem;
+    background-color: white;
+}
+
+.line.hidden
+{
+    visibility: hidden;
+}
+
+.container
+{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.option
+
+{
+
+   
+   
+    width: 12rem;
+    height: 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+
+.completed
+{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
